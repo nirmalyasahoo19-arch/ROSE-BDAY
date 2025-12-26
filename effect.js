@@ -199,8 +199,16 @@ $('#story').click(function(){
   $('#side-image').fadeIn(2000);
 });
 
-$('.message p:last').on('webkitAnimationEnd animationend', function(){
-  $('#secret-note').fadeIn(3000);
+$('#story').click(function(){
+
+  // show image first
+  $('#side-image').fadeIn(2000);
+
+  // show secret note AFTER message completes
+  setTimeout(function(){
+    $('#secret-note').fadeIn(3000);
+  }, 28000); // adjust timing if needed
+
 });
 
 
