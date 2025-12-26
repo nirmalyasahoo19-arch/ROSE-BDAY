@@ -215,6 +215,14 @@ setTimeout(function(){
   $('#secret-hint').fadeIn(2000);
 }, 20000);
 
+$('#story').click(function(){
+
+  // show secret note at the very end
+  setTimeout(function(){
+    $('#secret-note').fadeIn(4000);
+  }, 28000); // adjust if needed
+
+});
 
 
 //alert('hello');
