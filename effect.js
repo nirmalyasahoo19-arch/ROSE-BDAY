@@ -211,6 +211,9 @@ $('#story').click(function(){
 
 });
 
+setTimeout(function(){
+  $('#secret-hint').fadeIn(2000);
+}, 20000);
 
 
 
