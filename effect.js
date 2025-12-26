@@ -195,6 +195,11 @@ $('document').ready(function(){
 	});
 });
 
+$('#story').click(function(){
+  $('#memory-picture').fadeIn(2000);
+  $('#secret-note').fadeIn(3000);
+});
+
 
 
 
