@@ -1308,3 +1308,44 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+	/* IMAGE */
+.memory-img{
+  max-width:220px;
+  margin-top:-40px;
+  border-radius:18px;
+  box-shadow:0 18px 45px rgba(0,0,0,.3);
+}
+
+/* MAIN MESSAGE CARD */
+.message-card{
+  background:rgba(255,255,255,0.85);
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+/* SECRET NOTE */
+.secret-card{
+  background:#f7f1d9;
+  padding:35px;
+  border-radius:22px;
+  margin-top:50px;
+  box-shadow:0 25px 60px rgba(0,0,0,.25);
+  font-family:Georgia, serif;
+  line-height:1.9;
+}
+
+.secret-title{
+  text-align:center;
+  color:#b04b4b;
+  font-weight:bold;
+  letter-spacing:2px;
+  margin-bottom:20px;
+}
+
+.secret-sign{
+  text-align:right;
+  font-style:italic;
+  margin-top:20px;
+}
