@@ -196,7 +196,10 @@ $('document').ready(function(){
 });
 
 $('#story').click(function(){
-  $('#memory-picture').fadeIn(2000);
+  $('#side-image').fadeIn(2000);
+});
+
+$('.message p:last').on('webkitAnimationEnd animationend', function(){
   $('#secret-note').fadeIn(3000);
 });
 
